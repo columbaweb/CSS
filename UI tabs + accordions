@@ -1,0 +1,16 @@
+/* --- tabs --- */
+.hp-about{background:#F1F1F1;border-bottom:1px solid #E7E7E7;}
+.tab-content{background:#fff;padding:40px 0;}
+   .tabs .tab-nav{text-align:center;border-bottom:1px solid #D5D5D5;}
+   .tabs .tab-nav li {display:inline;}
+   .tab-nav li a{display:inline-block;font-size:13px;padding:8px 25px;color:#343434;border-right:1px solid #D5D5D5;}
+   .tab-nav li:first-child a{border-left:1px solid #D5D5D5;}
+   .tabs .tab-nav li a:hover, .tabs .tab-nav li a:active, .tabs .tab-nav li a:focus, .tabs li.ui-tabs-active a{ont-weight:600;color:#575B19;background:#fff;outline:none;}
+   .tabs h2{padding:0;border-bottom:none;}
+   
+/* --- accordions --- */   
+.accordion h2{font-family:'Open Sans',Helvetica,Calibri,sans-serif;font-size:14px;font-weight:600;margin:0 0 2px 0;padding:9px 50px 9px 15px;color:#3F3F39;background:#f7f7f7 url(images/acc-default.jpg) center right no-repeat;border:1px solid #E9E9E9;outline:none;}
+   .accordion h2.ui-accordion-header-active{background:#fff url(images/acc-active.jpg) center right no-repeat;}
+   .accordion h2:hover, .accordion h2:active, .accordion h2:focus{color:#405920;cursor:pointer;}
+   .accordion h3{font-family:'Open Sans',Helvetica,Calibri,sans-serif;font-size:14px;font-weight:600;color:#93B01E;}
+   .ui-accordion-content{margin:0 0 2px 0;padding:19px 50px 9px 15px;border:1px solid #E9E9E9;}
